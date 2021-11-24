@@ -10,6 +10,7 @@ namespace FindMissingNumbers
         {
             var numbers = new List<int>() { 1, 3, 4, 7, 20, 55, 89 };
             var outputList = FindMissingNubmers(numbers);
+            
             outputList.ForEach(Console.WriteLine);
         }
 
